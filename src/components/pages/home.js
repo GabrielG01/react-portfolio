@@ -1,15 +1,12 @@
-import React from 'react'
-import PortfolioContainer from "../portfolio/portfolio-container"
-
+import React from "react";
+import PortfolioContainer from "../portfolio/portfolio-container";
 
 const Home = () => {
-    return (
-        <div className=''>
-            <h1>Homepage</h1>
-        <PortfolioContainer />
+  return (
+    <div className="">
+      <PortfolioContainer />
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default Home
+export default Home;
